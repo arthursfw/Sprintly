@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/cadastro.css">
+    <script src="../assets/js/cadastro.js"></script>
+    <title>Cadastro - Sprintly</title>
+</head>
+
+<body>
+    <header>
+        <img src="../assets/logo.png" alt="Logo Sprintly" class="logo">
+        <h1>Crie sua Conta</h1>
+    </header>
+    <main>
+        <form action="#" method="POST" class="form-container">
+            <div class="input-group">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+            </div>
+            <div class="input-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="input-group">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Crie uma senha" required>
+            </div>
+            <div class="input-group">
+                <label for="confirmar-senha">Confirme sua Senha:</label>
+                <input type="password" id="confirmar-senha" name="confirmar-senha" placeholder="Confirme sua senha"
+                    required>
+            </div>
+            <button type="submit" class="btn">Cadastrar</button>
+        </form>
+        <div class="alternative">
+            <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
+        </div>
+    </main>
+    <footer>
+        &copy; Sprintly 2024. Todos os direitos reservados.
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
